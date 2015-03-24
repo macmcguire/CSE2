@@ -1,15 +1,30 @@
 public class Practice1 {
     public static void main(String [] args) {
- int i = 0;
-int j = 1;
-for(i = 1; i<4; i++){
-for(j = 1; j<3; j++){
-	for (int k = 0; k<j; k++) {
-		System.out.println( (int)(k + j) );
-	}
-}
-i++;
-	System.out.println( "test" );
-}
+    int a = 0;
+    int b = 0;
+    
+    
+    for ( ; a <= 9; a++) {
+        if (a< 5) {
+        for (b = 0; b<a+1; b++) {
+            System.out.print(a);
+        }
+    
+        System.out.println(" ");
     }
+    
+    else {
+        for (a = 5; a <= 9; a++) {
+          for (b = 10; b > a; b--) {
+              System.out.print(a);
+          }  
+        
+            System.out.println(" ");
+        }
+    }
+    }
+
+    
+
+    }    
 }
