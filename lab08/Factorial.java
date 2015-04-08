@@ -11,9 +11,9 @@ public class Factorial { //creates the class Factorial
         int userInt = scan.nextInt(); //defines variable to hold the users int
         int sum = 0; //sets sum to start at 0
         for(int i = 1; i <= userInt; i++){ //increments i by 1 until i equals userInt
-            sum += factorial(i); //adds the factorial of i to the existing sum until loop limit is reached
+            sum += factorial(i); // calls the factorial method
         }
-        print(sum); 
+        print(sum); //calls the print method 
   }
     public static int factorial(int key){ 
         int factorialNumber = 1; //sets int to 1 to be used in factorial calculation 
